@@ -39,7 +39,7 @@ const Portfolio = () => { // Define the Portfolio component
         },
         {
             title: 'MVC Tech Blog',
-            description: 'A blog where tech developers can publish articles, share opinions, and comment on others posts.',
+            description: 'A blog where developers can publish articles, share opinions, and comment on others posts.',
             link: 'https://arcane-earth-83958-249fb927da46.herokuapp.com/',
             repo: techBlogPic
         },
