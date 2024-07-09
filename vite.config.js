@@ -6,8 +6,9 @@ export default defineConfig({ // Vite configuration
   plugins: [react()], 
   build: {
     outDir: 'dist', // Ensure this matches your Netlify publish directory
-  // server: {
-  //   port: 3000,
-  //   open: true,
+  },
+  server: {
+    port: 3000,
+    open: true,
   },
 })
