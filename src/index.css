@@ -319,7 +319,7 @@ nav li {
 nav a {
   position: relative;
   text-decoration: none;
-  padding: 10px 20px;   /* Applies 10px padding top and bottom, 20px padding left and right */
+  padding: 10px 10px;   /* Applies 10px padding top and bottom, 20px padding left and right */
 }
 
 nav a::before,
@@ -528,19 +528,25 @@ span[role='img'] {
   text-align: center;
 }
 
-.project {
+/* .project {
   position: relative;
   width: 100%;
   max-width: 500px;
   height: 300px;
   margin: 30px;
-}
+} */
 
 .project-portfolio {
   display: flex;
   /* flex-wrap: center; */
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 0px 0px;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  /* max-width: 1200px; */
 }
 
 /* .project-bg {
