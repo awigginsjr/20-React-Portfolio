@@ -24,7 +24,7 @@ const About = () => { // Define the About component
                         <div> */}
                     <div className='about-me'>
                         <p>
-                            Hello! I&#39;m a junior full-stack developer with a passion for creating dynamic and efficient web applications. With experience in 25+ diverse projects, I have developed a solid foundation in both front-end and back-end technologies. My journey in development has been driven by curiosity and a continuous desire to learn and grow in the field.
+                            Greetings! I&#39;m a junior full-stack developer with a passion for creating dynamic and efficient web applications. With experience in 25+ diverse projects, I have developed a solid foundation in both front-end and back-end technologies. My journey in development has been driven by curiosity and a continuous desire to learn and grow in the field.
                         </p>
                         <ul>
                             <h4>Front-End Development </h4> 
