@@ -553,16 +553,16 @@ span[role='img'] {
 
 
 .project-text {
-    color: #f1c40f;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    padding: 50px;
-    z-index: 900;
-    opacity: 0;
-    transition: all .5s ease-in-out;
+  color: #f1c40f;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 10px;
+  z-index: 900;
+  opacity: 0;
+  transition: all .5s ease-in-out;
 }
 
 .project-text:hover {
@@ -573,10 +573,10 @@ span[role='img'] {
 }
 
 .project-text h4 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
+  margin: 20px 20px;
+  padding: 5px 0;
 }
 
 .project-text a {
@@ -596,8 +596,8 @@ span[role='img'] {
   justify-content: center;
   position: relative;
   margin: 30px auto;
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 260px;
   background-size: cover; /* Ensure the image covers the entire element */
   background-position: center; /* Center the background image */
   /* background: white; */
@@ -617,8 +617,8 @@ span[role='img'] {
   display: block;
   content: '';
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 260px;
   background: red;
   border-radius: 75px;
   z-index: -1;
