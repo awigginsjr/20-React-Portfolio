@@ -7,9 +7,10 @@ import Project from './projects'; // Import the project component
 import marvelPic from "../assets/projects/marvelmoviescreen.png"
 import weatherPic from "../assets/projects/weatherapp.png"
 import noteTakerPic from "../assets/projects/notetakerscreenshot.png"
-import workdayPic from "../assets/projects/workDayscreenShot.png"
+// import workdayPic from "../assets/projects/workDayscreenShot.png"
 import techBlogPic from "../assets/projects/techblogsc.png"
 import animeMusicPic from "../assets/projects/README.screenshot.png"
+import lateNiteBytesPic from "../assets/projects/lateNiteBytes.png"
 
 const Portfolio = () => { // Define the Portfolio component
     const [projects] = useState([ // Define the projects variable and set it equal to an array of project objects
@@ -32,10 +33,10 @@ const Portfolio = () => { // Define the Portfolio component
             repo: noteTakerPic
         },
         {
-            title: 'Work Day Scheduler',
-            description: 'Saving hourly events from 9am to 5pm.',
-            link: 'https://awigginsjr.github.io/05-work_day_scheduler/',
-            repo: workdayPic
+            title: 'Late Nite Bytes',
+            description: 'A MERN Stack Single-Page Application for late-night food options.',
+            link: 'https://late-nite-bytes.onrender.com',
+            repo: lateNiteBytesPic
         },
         {
             title: 'MVC Tech Blog',
