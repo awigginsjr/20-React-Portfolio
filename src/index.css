@@ -135,6 +135,9 @@ a:hover {
 
 header {
   background: var(--dark);
+  /* background: url('assets/images/techBackground2.jpg');
+  background-size: cover;
+  background-position: center; */
 }
 
 header a {

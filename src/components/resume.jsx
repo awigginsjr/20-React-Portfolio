@@ -1,6 +1,6 @@
 // scr/components/resume.jsx
 
-import resume from '../assets/images/Anthony_Wiggins_Jr_Resume.pdf'; // Import the resume.pdf file
+import resume from '../assets/images/AnthonyWiggins_2024_Resume.pdf'; // Import the resume.pdf file
 
 const Resume = () => { // Define the Resume component
     return ( // Return the following content
